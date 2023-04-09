@@ -92,7 +92,7 @@ const internData = () => {
     }
 ])
 .then(answers => {
-    console.log(answer);
+    console.log(answers);
     const intern = new Intern(answers.name, answers.id, answers.email, answers.school);
     team.push(intern);
     questionPrompt();
