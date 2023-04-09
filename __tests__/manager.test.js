@@ -12,7 +12,7 @@ test('Test getName()', () => {
 });
 
 test('Test getID()', () => {
-    expect(manager.getID()).toBe('1234');
+    expect(manager.getId()).toBe('1234');
 });
 
 test('Test getEmail()', () => {
