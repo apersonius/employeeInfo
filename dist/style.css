@@ -1,1 +1,28 @@
-/* css */
+.card {
+    margin: 15px;
+    padding: 10px;
+}
+
+main {
+    margin: 15px;
+    padding: 15px;
+}
+
+header {
+    color: white;
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-header {
+    color: white;
+    background-color: #0077f7;
+}
+
+.list-group-item {
+    white-space: nowrap;
+    overflow: visible;
+}
