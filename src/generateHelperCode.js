@@ -11,7 +11,7 @@ const generateTeam = (team) => {
         <i class="fas fa-mug-hot"></i> Manager </div>
         <ul class="list-group list-group-flush">
          <li class="list-group-item"> ID: ${manager.id}</li>
-         <li class="list-group-item"> Email: <span id="emai;"><a href"mailto:${manager.email}">${manager.email}</a></span></li>
+         <li class="list-group-item"> Email: <span id="emai;"><a href="mailto:${manager.email}">${manager.email}</a></span></li>
          <li class="list-group-item"> Office Number: ${manager.officeNumber}</li>
         </ul>
         </div>`;
