@@ -10,7 +10,7 @@ const outputPath = path.join(OUTPUT_DIR, 'output.html');
 const team = [];
 
 const managerData = () => {
-    return inquirer.createPromptModule([{
+    return inquirer.prompt([{
         type: 'input',
         name: 'name',
         message: 'What is the managers name?',
@@ -29,7 +29,7 @@ const managerData = () => {
         type: 'input',
         name: 'office',
         message: 'What is their office number?',
-    },
+    }
 ])
 .then(answers => {
     console.log(answers);
@@ -40,7 +40,7 @@ const managerData = () => {
 }
 
 const engineerData = () => {
-    return inquirer.createPromptModule([{
+    return inquirer.prompt([{
         type: 'input',
         name: 'name',
         message: 'What is the engineers name?',
@@ -59,7 +59,7 @@ const engineerData = () => {
         type: 'input',
         name: 'github',
         message: 'What is their github username?',
-    },
+    }
 ])
 .then(answers => {
     console.log(answers);
@@ -70,7 +70,7 @@ const engineerData = () => {
 }
 
 const internData = () => {
-    return inquirer.createPromptModule([{
+    return inquirer.prompt([{
         type: 'input',
         name: 'name',
         message: 'What is the interns name?',
@@ -89,7 +89,7 @@ const internData = () => {
         type: 'input',
         name: 'school',
         message: 'What school does the intern attend?',
-    },
+    }
 ])
 .then(answers => {
     console.log(answer);
@@ -100,7 +100,7 @@ const internData = () => {
 }
 
 const questionPrompt = () => {
-    return inquirer.createPromptModule([{
+    return inquirer.prompt([{
         type: 'list',
         name: 'menu',
         message: 'Would you like to add an employee or finish and build chart?',
