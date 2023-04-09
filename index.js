@@ -33,7 +33,7 @@ const managerData = () => {
 ])
 .then(answers => {
     console.log(answers);
-    const manager = new Manager(answers.name, answers.id, answers.office);
+    const manager = new Manager(answers.name, answers.id, answers.email, answers.office);
     team.push(manager);
     questionPrompt();
 })
